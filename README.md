@@ -8,15 +8,22 @@ pip install rpyc,keyboard
 ## how to run
 
 
-### run server 
+### run server classic
 ```bash
-py server_classic.py
+py server/server_classic.py
+```
+
+### run server
+```bash
+py server/server.py
+```
+
+### run gui
+```bash
+py server/gui.py
 ```
 
 ### run client
 ```bash
 py client.py
 ```
-
-## JemiService 
-not finish yet
